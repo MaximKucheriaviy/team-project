@@ -28,3 +28,14 @@ ol {
 a {
   text-decoration: none;
 }
+
+.social-icons {
+  display: flex;
+  margin-bottom: 73px;
+}
+.social-icons-item {
+  margin-right: 25px;
+}
+.social-icons-item:last-child {
+  margin-right: 0px;
+}
