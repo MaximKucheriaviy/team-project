@@ -1,0 +1,30 @@
+:root {
+  --logo-color: rgba(35, 31, 32, 1);
+  --acsent-collor: #f7941e;
+  --background-grey: #f1f1f2;
+}
+body {
+  font-family: "Gilroy";
+  font-style: normal;
+  box-sizing: border-box;
+}
+.container {
+  width: 1440px;
+  margin: 0px auto;
+  /* outline: 3px solid green; */
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
