@@ -4,7 +4,7 @@
   --background-grey: #f1f1f2;
 }
 body {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   font-style: normal;
   box-sizing: border-box;
 }
@@ -28,4 +28,48 @@ ol {
 }
 a {
   text-decoration: none;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-txt {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  padding: 150px;
+}
+
+.hero-title {
+  margin-bottom: 36px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.23;
+  color: black;
+}
+
+.hero-text {
+  margin-bottom: 52px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.hero-link {
+  padding: 20px 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  background: #f7941e;
+  color: #ffffff;
+}
+
+.hero-img {
+  float: right;
+  width: 50%;
 }
